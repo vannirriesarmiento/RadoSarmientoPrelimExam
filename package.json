@@ -1,0 +1,18 @@
+{
+  "name": "prelim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "RS_trans1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/vannirriesarmiento/RadoSarmientoPrelimExam.git)"
+  },
+  "author": "Sarmiento",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.6.0"
+  }
+}

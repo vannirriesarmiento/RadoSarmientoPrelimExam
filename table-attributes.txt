@@ -1,0 +1,28 @@
+RS_supplier
+sup_ID (PK)
+sup_name
+sup_address
+
+RS_purchaseorder
+po_ID (PK)
+sup_ID (FK)
+cust_ID (FK)
+po_date
+po_description
+
+RS_lineitem
+po_ID (FK)
+prod_ID (FK)
+li_date
+li_description
+
+RS_product
+prod_ID (PK)
+sup_ID (FK)
+prod_name
+prod_price
+
+RS_customer
+cust_ID (PK)
+cust_name
+cust_address
